@@ -1,0 +1,227 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+height: 550px;
+width: 360px;
+background-color:white;
+border-radius:20px;
+display: flex;
+background-image: url(images/illustration-hero.svg);
+background-repeat: no-repeat;
+background-size: 360px 180px;
+text-align: center;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+ box-shadow: hsl(223, 37%, 68%) 5px 5px 80px;
+}
+
+#header{
+    margin-top: 190px;
+}
+.order{
+    font-size: 22px;
+}
+.para{
+    font-size: 14px;
+    color: gray;
+    margin-top: 15px;
+}
+
+.container-2{
+    display: flex;
+    height: 80px;
+    width: 300px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    z-index: 1;
+    margin-top: 20px;
+}
+#icon{
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   justify-content: center;
+}
+.details{
+    padding-left: 20px;
+    align-items: center;
+    justify-self: center;
+}
+p{
+    color: gray;
+}
+
+.link{
+    font-size: 13px;
+    padding-left: 60px;
+}
+
+a:hover{
+    color: hsl(224, 86%, 59%);
+    cursor: pointer;
+}
+
+.container-3{
+    height: 40px;
+    width: 300px;
+    background-color:hsl(245, 75%, 52%);
+    z-index: 1;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    box-shadow:hsl(224, 19%, 60%) 2px 4px 30px; ;
+}
+
+#content{
+    margin-top: 10px;
+    color: white;
+    font-size: 13px;
+}
+
+.container-3:hover{
+    background-color:hsl(224, 75%, 70%);
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.foot{
+    margin-top: 25px ;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+}
+
+.foot:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OLD CODE */
+
+/*#header{
+   margin-top:100px ;
+}
+.order{
+    font-size:24px;
+}
+.para{
+    font-size: 16px;
+    color: gray
+       
+}
+.container-2{
+    display: flex;
+    z-index: 1;
+    height: 80px;
+    width: 300px;
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    padding-left: 20px;
+}
+.details{
+        padding-left: 25px;
+}
+ 
+p{
+    color: gray;
+}
+
+.link{
+    font-size: 12px;
+    padding-left: 50px;
+}
+
+.link:hover{
+    color:hsl(224, 86%, 59%);
+}
+
+.container-3{
+    display: flex;
+    position: absolute;
+    z-index:2;
+    height: 40px;
+    width: 300px;
+    background-color:hsl(245, 75%, 52%);  
+    margin-top: 440px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#content{
+    padding-left: 85px;
+    color: white;
+    font-size: 13px;
+}
+
+.container-3:hover{
+    background-color: hsl(224, 86%, 59%)
+}
+
+.foot{
+    font-size: 13px;
+    text-decoration: none;
+        font-weight: 700;
+        color: hsl(224, 23%, 55%);
+        margin-top: 220px;
+      
+}
+
+
+
+
+   
+
+  */
